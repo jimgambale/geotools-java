@@ -2,6 +2,7 @@
   "name": "geotools-java",
   "version": "0.1.0",
   "description": "Bridge API to connect node.js with geotools Java APIs",
+  "keywords": ["geotools","java","shapefile","geospatial","gis","ogc"],
   "author": "James R. Gambale, Jr.",
   "license": "MIT",
   "engines": {
