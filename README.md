@@ -27,7 +27,7 @@ Notes:
 * The geotools JAR files and dependencies are packaged using te Maven Shade Plugin.
 * The makegt-jar.sh script is used to generate an Uber JAR containing the dependencies:
 ```bash
-$ ./makegt-jar.sh node_modules/geotools
+$ ./makegt-jar.sh node_modules/geotools-node-wrapper/geotools
 ```
 * The packaged geotools dependencies are placed in geotools-java/src/gt-jar/target/node-geotools-1.x.jar
 
@@ -37,7 +37,7 @@ const geotoolsFactory = require("geotools-java");
 
 (async function () {
     const className = 'org.geotools.data.shapefile.ShapefileDataStoreFactory';
-    const shapeFileStorePath=__dirname + '/../node_modules/geotools/modules/library/sample-data/src/main/resources/org/geotools/test-data/shapes';
+    const shapeFileStorePath=__dirname + '/../node_modules/geotools-node-wrapper/geotools/modules/library/sample-data/src/main/resources/org/geotools/test-data/shapes';
     const geotools = await geotoolsFactory.getInstance();
     
     const java = geotools.getJava();

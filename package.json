@@ -23,17 +23,15 @@
   ],
   "main": "cli.js",
   "scripts": {
-    "install": "napa && ./makegt-jar.sh node_modules/geotools",
+    "install": "./makegt-jar.sh node_modules/geotools-node-wrapper/geotools",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "napa": {
-    "geotools": "git+https://github.com/jimgambale/geotools.git#vpf-update"
   },
   "dependencies": {
     "java": "^0.11.0",
     "lodash": "^4.17.11",
     "napa": "^3.0.0",
     "recursive-readdir": "^2.2.2",
-    "yargs": "^12.0.5"
+    "yargs": "^12.0.5",
+    "geotools-node-wrapper": "git+https://github.com/jimgambale/geotools-node-wrapper.git"
   }
 }
