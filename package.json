@@ -2,7 +2,14 @@
   "name": "geotools-java",
   "version": "0.1.0",
   "description": "Bridge API to connect node.js with geotools Java APIs",
-  "keywords": ["geotools","java","shapefile","geospatial","gis","ogc"],
+  "keywords": [
+    "geotools",
+    "java",
+    "shapefile",
+    "geospatial",
+    "gis",
+    "ogc"
+  ],
   "author": "James R. Gambale, Jr.",
   "license": "MIT",
   "engines": {
@@ -16,7 +23,7 @@
   ],
   "main": "cli.js",
   "scripts": {
-    "install": "napa && ./makegt.sh node_modules/geotools",
+    "install": "napa && ./makegt-jar.sh node_modules/geotools",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "napa": {
