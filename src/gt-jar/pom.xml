@@ -74,21 +74,6 @@
       </dependency>
       <dependency>
           <groupId>org.geotools</groupId>
-          <artifactId>gt-epsg-wkt</artifactId>
-          <version>${geotools.version}</version>
-      </dependency>
-      <dependency>
-          <groupId>org.geotools</groupId>
-          <artifactId>gt-epsg-extension</artifactId>
-          <version>${geotools.version}</version>
-      </dependency>
-      <dependency>
-          <groupId>org.geotools</groupId>
-          <artifactId>gt-epsg-postgresql</artifactId>
-          <version>${geotools.version}</version>
-      </dependency>
-      <dependency>
-          <groupId>org.geotools</groupId>
           <artifactId>gt-swing</artifactId>
           <version>${geotools.version}</version>
       </dependency>
@@ -108,14 +93,9 @@
           <artifactId>gt-geojson</artifactId>
           <version>${geotools.version}</version>
       </dependency>
-      <dependency>
+      <!-- dependency>
           <groupId>org.geotools</groupId>
           <artifactId>gt-geotiff</artifactId>
-          <version>${geotools.version}</version>
-      </dependency>
-      <dependency>
-          <groupId>org.geotools</groupId>
-          <artifactId>gt-image</artifactId>
           <version>${geotools.version}</version>
       </dependency>
       <dependency>
@@ -193,5 +173,20 @@
           <artifactId>gt-feature-pregeneralized</artifactId>
           <version>${geotools.version}</version>
       </dependency>
+      <dependency>
+          <groupId>org.geotools</groupId>
+          <artifactId>gt-epsg-wkt</artifactId>
+          <version>${geotools.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.geotools</groupId>
+          <artifactId>gt-epsg-extension</artifactId>
+          <version>${geotools.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.geotools</groupId>
+          <artifactId>gt-epsg-postgresql</artifactId>
+          <version>${geotools.version}</version>
+      </dependency -->
   </dependencies>
 </project>
