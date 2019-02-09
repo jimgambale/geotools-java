@@ -1,6 +1,6 @@
 {
   "name": "geotools-java",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Bridge API to connect node.js with geotools Java APIs",
   "keywords": [
     "geotools",
@@ -23,7 +23,9 @@
   ],
   "main": "index.js",
   "scripts": {
-    "install": "git clone https://github.com/jimgambale/geotools --branch vpf-update && cp pom.xml geotools/ && ./makegt-jar.sh ./geotools",
+    "install": "git clone https://github.com/jimgambale/geotools --branch vpf-update && ./make-geotools.sh ./geotools && ./makegt-jar.sh",
+    "build-geotools": "./make-geotools.sh ./geotools",
+    "build-jar": "./makegt-jar.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

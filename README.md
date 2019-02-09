@@ -25,9 +25,11 @@ Notes:
 
 * The npm install process clones the geotools repo to node_modules/geotools.
 * The geotools JAR files and dependencies are packaged using te Maven Shade Plugin.
+* The geotools repo is cloned and then a maven build is initiated by make-geotools.sh
 * The makegt-jar.sh script is used to generate an Uber JAR containing the dependencies:
 ```bash
-$ ./makegt-jar.sh node_modules/geotools-node-wrapper/geotools
+$ ./make-geotools.sh ./geotools
+$ ./makegt-jar.sh 
 ```
 * The packaged geotools dependencies are placed in geotools-java/src/gt-jar/target/node-geotools-1.x.jar
 
@@ -68,6 +70,11 @@ const geotoolsFactory = require("geotools-java");
 ```
 
 # Release Notes
+
+### v0.4.0
+
+* Revise geotools build scripts
+* Add Java VM options to eliminate hang on OSX
 
 ### v0.1.0
 
