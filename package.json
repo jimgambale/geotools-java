@@ -21,7 +21,7 @@
       "email": "jimgambale@gmail.com"
     }
   ],
-  "main": "cli.js",
+  "main": "index.js",
   "scripts": {
     "install": "./makegt-jar.sh node_modules/geotools-node-wrapper/geotools",
     "test": "echo \"Error: no test specified\" && exit 1"
