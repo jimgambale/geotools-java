@@ -5,3 +5,4 @@ package-lock.json
 src/gt-pkg
 src/gt-jar/target
 src/gt-jar/dependency-reduced-pom.xml
+geotools

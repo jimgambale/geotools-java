@@ -2,7 +2,7 @@ const geotoolsFactory = require("../index");
 
 (async function () {
     const className = 'org.geotools.data.shapefile.ShapefileDataStoreFactory';
-    const shapeFileStorePath=__dirname + '/../node_modules/geotools-node-wrapper/geotools/modules/library/sample-data/src/main/resources/org/geotools/test-data/shapes';
+    const shapeFileStorePath=__dirname + '/../geotools/modules/library/sample-data/src/main/resources/org/geotools/test-data/shapes';
     
     // Will hang on OSX without these options
     const opts = {
